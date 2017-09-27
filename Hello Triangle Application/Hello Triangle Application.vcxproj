@@ -78,10 +78,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\VulkanSDK\glm-0.9.9-a1;C:\VulkanSDK\glfw-3.2.1.bin.WIN32\include;C:\VulkanSDK\1.0.61.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\git\Vulkan\libraries\glfw-3.2.1.bin.WIN32\include;D:\git\Vulkan\libraries\glm-0.9.9-a1;C:\VulkanSDK\1.0.61.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>C:\VulkanSDK\glm-0.9.9-a1;C:\VulkanSDK\glfw-3.2.1.bin.WIN32\lib-vc2015;C:\VulkanSDK\1.0.61.1\Lib32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\git\Vulkan\libraries\glfw-3.2.1.bin.WIN32\lib-vc2015;C:\VulkanSDK\1.0.61.1\Lib32;D:\git\Vulkan\libraries\glm-0.9.9-a1;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>vulkan-1.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -99,10 +99,13 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\git\Vulkan\libraries\glfw-3.2.1.bin.WIN32\include;D:\git\Vulkan\libraries\glm-0.9.9-a1;C:\VulkanSDK\1.0.61.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>D:\git\Vulkan\libraries\glfw-3.2.1.bin.WIN32\lib-vc2015;C:\VulkanSDK\1.0.61.1\Lib32;D:\git\Vulkan\libraries\glm-0.9.9-a1;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>vulkan-1.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
