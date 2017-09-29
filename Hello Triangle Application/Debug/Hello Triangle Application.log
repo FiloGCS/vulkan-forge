@@ -1,4 +1,3 @@
 ﻿  main.cpp
-LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   Hello Triangle Application.vcxproj -> D:\git\Vulkan\Hello Triangle Application\Debug\Hello Triangle Application.exe
   Hello Triangle Application.vcxproj -> D:\git\Vulkan\Hello Triangle Application\Debug\Hello Triangle Application.pdb (Partial PDB)
